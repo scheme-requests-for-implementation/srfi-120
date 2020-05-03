@@ -4,6 +4,8 @@
 
 
 
+keywords: [[https://srfi.schemers.org/?keywords=miscellaneous][Miscellaneous]]
+
 This repository hosts [[https://srfi.schemers.org/srfi-120/][SRFI 120]]: Timer APIs, a [[https://srfi.schemers.org/][Scheme Request for Implementation]].
 
 This SRFI is in /final/ status.
