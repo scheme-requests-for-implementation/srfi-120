@@ -323,7 +323,7 @@
 
     (define timer-reschedule!
       (case-lambda
-       ((timer id first) (timer-schedule! timer id first 0))
+       ((timer id first) (timer-reschedule! timer id first 0))
        ((timer id first period)
 	
 	(define (check v msg) (check-positive 'timer-reschedule! v msg))
